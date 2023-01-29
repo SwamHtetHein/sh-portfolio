@@ -262,9 +262,10 @@ h6 {
 }
 
 #hero p {
-  color: #fff;
+  color: rgb(194, 191, 191);
   margin-bottom: 50px;
   font-size: 26px;
+  font-weight: bolder;
   /* font-family: "Poppins", sans-serif; */
   font-family:Lucida Console;
 }
