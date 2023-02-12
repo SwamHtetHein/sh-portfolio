@@ -1,0 +1,95 @@
+
+body{
+ 	background-color: navy;
+
+
+ }
+
+ body h1{
+
+ 
+
+  
+  color:navy;
+  margin: 0 auto;
+  padding-top:10px;
+}
+
+
+
+
+     .main{
+
+     	width: 100%;
+        height: 900px;
+        background-color: #87d4c5;
+     
+        
+     }
+
+     .Row1{
+
+        width: 100%;
+        height: 320px;
+
+     }
+
+     .gif{
+
+     	width: 50%;
+     	height: 300px;
+        padding: 5px;
+       
+        float:left;
+
+
+     	
+     }
+     .Img{
+       
+        width: 30%;
+     	height: 300px;
+         padding: 5px;
+         clear: both;
+        
+        
+
+
+     }
+
+
+
+     .Row2{
+
+        width: 100%;
+        height: 80px;
+        color:navy;
+     text-align: center;
+  
+     background-color: #1dd3bd;
+     font-size: 40px;
+
+
+
+     }
+
+     .Row3{
+
+        width: 100%;
+        height: 500px;
+
+
+     }
+
+    .Gif1{
+
+        width: 99%;
+        height: 500px;
+        padding-left:10px;
+        padding-right: 10px; 
+
+    }
+
+
+     
+

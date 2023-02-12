@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Amazon</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="circle"></div>
+<section>
+    
+<header>
+<a href="#"> <img src="img/amazon.png" class="logo"></a>
+
+<ul>
+    <li><a href="#">Home </a></li>
+    <li><a href="#">Menu </a></li>
+    <li><a href="#">About Us </a></li>
+    <li><a href="#">Order </a></li>
+  
+
+</ul>
+
+
+</header>
+
+
+</section>
+
+
+<div class="content">
+
+    <div class="textBox">
+       <h2>It's not just Cofffee <br><br> It's <span style="font-family: Cursive;">Cafe Amazons</span></h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad in vero, facilis ipsa quam eveniet? Natus, beatae voluptas aspernatur, animi et magnam sit quae cumque vitae quos, placeat quaerat debitis!</p>
+       <a href="#">Learn More</a>
+    </div>   
+   
+    <div class="imgBox">
+       <img src="img/cafe1.png" class="choco">
+    </div>  
+    <ul class="thumb">
+        <li><img src="img/cafe1.png" onclick="imgSlider('img/cafe1.png');changeCircleColor('#322520') ";  alt=""></li>
+        <li><img src="img/cafe2.png" onclick="imgSlider('img/cafe2.png');changeCircleColor('#5B6F1C')" alt=""></li>
+        <li><img src="img/cafe3.png" onclick="imgSlider('img/cafe3.png');changeCircleColor('#AD9C77')" alt=""></li>
+    
+       </ul>
+       
+       <!-- <ul class="sci">
+        <li><a href="#"><i class="fas fa-cloud"></i></a></li>
+        <li><a href="#"><i class="fas fa-cloud"></i></a></li>
+        <li><a href="#"><i class="fas fa-cloud"></i></a></li>
+
+       </ul> -->
+   </div>
+
+
+<!-- <script src="main.js"></script> -->
+
+
+<script  type="text/javascript">
+    function imgSlider(anything){
+    document.querySelector('.choco').src = anything;
+    
+}
+
+function changeCircleColor(color){
+    const circle = document.querySelector('.circle');
+    circle.style.background = color;
+
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    font-family:'Arial Narrow Bold', sans-serif;
+    word-spacing: 0.5rem;
+    
+    /* background: linear-gradient(200deg, #1e1e1e, rgb(156, 62, 62) ); */
+    
+}
+
+.main-container{
+
+    width: 80%;
+    margin: 3%;
+    height: 1000px;
+    padding: 2%;
+    
+}
+
+.form-fill {
+   margin-top: 12rem;
+    float: right;
+    display: flex;
+    color: rgb(255, 255, 255);
+    /* background-color: beige; */
+    
+}
+
+.detail h2{
+    padding-left: 5px;
+    margin-bottom: 1rem;
+}
+
+.form-fill input{   
+    width: 30rem;
+    padding: 1rem 1rem;
+    margin: 0.3rem;
+    background-color: unset;
+    display: block;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(229, 229, 229);
+    border-style:groove;
+    border-color: rgb(137, 140, 143);
+    
+}
+
+.container-wheel{
+    
+    
+    display: flex;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;     
+    float: left;
+    justify-content: center;
+    align-items:center ;
+    overflow: hidden;
+    /* background-color: rgb(196, 214, 189); */
+    
+    
+    
+}
+
+.wheel-body {
+
+    height: 501px;
+    width: 501px;  
+    position: relative;
+    overflow: hidden;  
+    background-color: white; 
+    border-color: aliceblue;
+    border-radius: 50%;
+    border: 9px solid rgb(245, 245, 245);
+   
+    transition: 2s ease-out;
+    
+    
+    
+    
+    /* transition: 3s all;  */
+    /* /// emomation */
+
+}
+
+ .wheel-body div{
+
+    height: 50%;
+    width: 300px;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    position: absolute;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color:lightslategray;
+    font-weight: bolder;
+    justify-content: center;
+    
+   
+
+
+}
+
+.wheel-body .one{        
+    left: 50%;
+    background-color: rgb(0, 0, 0);
+   
+}   
+
+
+.wheel-body .two{
+
+    background-color: rgb(209, 209, 215);
+   transform: rotate(60deg);
+}
+
+.wheel-body .three{
+
+    background-color: rgb(0, 0, 0);
+    transform: rotate(120deg);
+}
+
+.wheel-body .four{
+
+    background-color: rgb(209, 209, 215);
+    transform: rotate(180deg);
+}
+
+.wheel-body .five{
+
+    background-color: rgb(6, 6, 6);
+    transform: rotate(240deg);
+
+}
+
+.wheel-body .six{
+
+    background-color: rgb(209, 209, 215);
+    transform: rotate(300deg);
+}
+
+
+
+
+
+
+
+
+.click{
+
+    height: 25px;
+    width: 25px;
+    background-color: rgb(121, 121, 121);
+    border-radius: 50%;
+    position: absolute;
+    
+
+}
+
+
+#spin{
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    margin-top:10px;
+    margin-left: 700px;
+    border-radius: 20%;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.stopper{
+
+    height: 60px;
+    width: 60px;
+    background-color:darkslategray;
+    position: absolute;
+    margin-bottom: 600px;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    
+}
+
+
+.fix-button{
+   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+.fix-me {
+
+    position: static;
+    top: 200px;
+    left: 0px;
+}
+
+
+.bg-clor{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 845px){
+
+    wheel-body {
+
+        height: 100px;
+        width: 200px;
+    }
+    
+
+    .form-fill {
+        
+        
+        width: 250px;
+        
+         /* background-color: beige; */
+         
+     }
+     
+  
+
+
+
+
+
+    
+}
+
+
+/* .wheel-body {
+
+    animation: start-rotate  7s linear infinite;
+    animation-direction: reverse;
+    animation-timing-function:linear;
+    
+}
+@keyframes start-rotate {
+    100%{ 
+transform: rotate(360deg);
+
+}
+    
+}
+
+.wheel-bodyone {
+
+    animation: start-rotate  step-end;
+    animation-direction: reverse;
+    animation-timing-function:linear;
+    
+}
+@keyframes start-rotate {
+    100%{ 
+transform: rotate(360deg);
+
+}
+    
+} */
+
+
+
+
+
+/* @-webkit-keyframes start-rotate {
+    from { -webkit-transform:rotate(0deg) }
+    to { -webkit-transform:rotate(360deg) }
+    }
+    @-moz-keyframes start-rotate {
+    from { -moz-transform:rotate(0deg) }
+    to { -moz-transform:rotate(0deg) }
+    }
+
+ */
+
+
+
+/* .wheel-body {
+    animation-name: start-rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    
+    
+  }
+  
+  @keyframes start-rotate {
+    100%{ 
+transform: rotate(360deg);
+
+}
+    
+} */
