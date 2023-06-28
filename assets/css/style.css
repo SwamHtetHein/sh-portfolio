@@ -615,7 +615,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .portfolio #portfolio-flters {
@@ -625,25 +625,26 @@ section {
   text-align: center;
   background: #fff;
   border-radius: 50px;
-  padding: 2px 15px;
+  padding: 4px 15px;
+  margin-bottom: 80px;
 }
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px 8px 15px;
+  padding: 10px 15px 10px 15px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   color: #272829;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #dd1435;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -655,6 +656,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  bottom: 20px;
+  border: 10px inherit  ;
+  box-shadow:  5.5px 5px 0px 0px #a7a3a3, 11px 10px 0px 0px #e1c7c7;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -686,13 +690,13 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(199, 72, 72, 0.75);
+  background: rgba(249, 228, 228, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(74, 29, 29, 0.95);
+  background: rgba(183, 168, 168, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -755,7 +759,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 10px;
   position: relative;
   
 }
@@ -964,14 +968,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 300px;
+  
   margin-bottom:90px ;
   
 }
 
 .contact .info {
   padding: 5px 100px 5px 0px;
-  margin-right: 10px;
+  
   background: #fff;
   width: 100%;
   height: 120px;
@@ -980,8 +984,8 @@ section {
 
 
 .contact .info div {
-  padding: 10px 10px;
-  margin-left: 10px;
+  padding: 0px 50px 0px 0px;
+  
  height: 90px;
   /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
   float: left;
@@ -1004,7 +1008,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bolder;
   margin-bottom: 5px;
   color: #050d18;
@@ -1013,7 +1017,7 @@ section {
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #173b6c;
 }
