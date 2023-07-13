@@ -1,0 +1,179 @@
+.col{
+	background-color: white;
+	font-family: Garamond;
+	font-size: 35px;
+	color: red;
+   font-weight: bold;
+   width: 100%;
+
+}
+
+
+.Story {
+  font-family: Garamond;
+	font-size: 126px;
+  color: red;
+  font-weight: bold;
+}
+
+h3{
+  font-family: Garamond;
+	padding-left: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.col-sm-6 img{
+	width: 300px;
+	height: 250px;
+	margin-bottom: 10PX;
+}
+
+
+
+.container p{
+	font-family: Garamond;
+	
+	
+  color: red;
+}
+.slide{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+
+.slide img{
+	width: 300px;
+	height: 350px;
+	margin-left: 100px;
+
+}
+
+.Gallery{
+	width: 100%;
+	height: 700px;
+	background-color: white;  }
+
+.Gallery3{
+	width: 100%;
+	height: 00px;
+	background-color: white;  }
+
+.Gallery img{
+
+margin-top: 10px;
+	width: 250px;
+	height: 250px;
+	margin-left: 40px;
+	
+
+}
+.Gallery label{
+	width: 250px;
+	height: 30px;
+	margin-left: 40px;
+	color: red;
+	font-size: 25px;
+	font-family: Garamond;
+	text-shadow:  0px 0px 5px 5px brown;
+
+}
+
+.Gallery img:hover{
+	
+	box-shadow: 0px 0px 5px 5px brown;
+
+}
+
+
+.shop{
+
+	width: 100%;
+	height: 960px;
+	
+
+}
+
+.shop img{
+
+	width: 300px;
+	height: 250px;
+	box-shadow: 0px 0px 5px 5px black;
+	margin-top: 30px;
+
+}
+
+
+
+
+.dropdown {
+  
+  display: grid;
+  width: 500px;
+  height: 40px;
+font-family: serif;
+font-size: 25px;
+  
+
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+padding-left: 110px;
+font-size: 20px;
+font-family: serif;
+padding-top: 30px;
+
+  z-index: 8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: unset;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: inherit;
+  display: block;
+}
+
+
+.login{  
+        width: 382px;  
+      
+        margin-left: 700px;  
+        padding: 80px;  
+        background: #FFF1EE;  
+        border-radius: 15px ;  
+          
+}  
+.loginform h2{  
+    text-align: center;  
+    color: #78605A;  
+    padding-top: 30px;  
+}  
+.loginform label{  
+    color: #454545;  
+    font-size: 17px;  
+
+}
+
+
+
+.icon a{
+
+ 
+padding-left: 60px;
+  color: brown;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+.icon a:hover{
+
+	color: white;
+	
+}
+

@@ -461,6 +461,10 @@ section {
   margin-bottom: 0;
 }
 
+
+.about .col-lg-4 img   {
+  box-shadow: rgba(104, 104, 104, 0.5) 4px 4px 0px 3px;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -562,7 +566,7 @@ section {
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 50px 15px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
