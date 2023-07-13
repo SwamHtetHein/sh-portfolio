@@ -13,7 +13,7 @@ body {
   color: #272829;
   font-style: italic;
   line-height: 2;
-  text-align: justify;
+  
 }
 
 a {
@@ -102,7 +102,11 @@ h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  
 }
+
+
+
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
@@ -332,15 +336,15 @@ h6 {
   
   #hero p{
     
-    font-size: 40px;
+    font-size: 30px;
     
 
     
   }
   
   #hero h1{
-    margin: 0 50vh 10px 0;
-    font-size: 40px;
+    margin: 0 45vh 10px 0;
+    font-size: 30px;
     
     color: rgba(0, 0, 0, 0.818);
 
