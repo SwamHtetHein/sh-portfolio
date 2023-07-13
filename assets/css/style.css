@@ -12,6 +12,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
   font-style: italic;
+  line-height: 2;
+  text-align: justify;
 }
 
 a {
