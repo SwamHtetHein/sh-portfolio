@@ -1155,22 +1155,21 @@ section {
 
 
 
-@media(max-width: 768px){
+@media(max-width: 900px){
 
   
-  .end p {
+  .endp {
     
-    width: 100%;    
+      
     
     text-align: left; 
-    padding-top: 15px;
+   
    
     color: azure; 
     font-weight: bolder;
   }
 
 }
-
 
 
 
