@@ -395,6 +395,21 @@ p {
   }
 }
 
+
+
+@media (max-width: 1440px) {
+  
+  .mainintro {
+    margin-left: 350px;
+    width: 600px;
+  }
+
+  #hero .btn-get-started {
+      padding: 8px 24px;
+      font-size: 14px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
