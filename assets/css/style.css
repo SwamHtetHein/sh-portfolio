@@ -239,13 +239,15 @@ h6 {
   height: 100vh;
   background: url("../img/logo1 (4).jpg") top center;
   background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero:before {
   content: "";
-  /* background: rgba(5, 13, 24, 0.3); */
   background: rgba(176, 176, 176, 0.3);
-
   position: absolute;
   bottom: 0;
   top: 0;
@@ -257,127 +259,139 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  text-align: left;
+  padding: 20px;
 }
 
-#hero h1 {
-  margin: 0 50vh 10px 0;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 56px;
-  color: rgba(0, 0, 0, 0.818);
+.mainintro {
+  max-width: 600px;
+  margin-right: 500px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-#hero p {
-  color: rgb(210, 41, 41);
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: bolder;
-  /* font-family: "Poppins", sans-serif; */
-  font-family:Lucida Console;
-}
-
-/* #hero p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  border-bottom: 3px solid #ff0000;
+/* .intro {
+  background-color: #ffffff;
+  color: #530E1E;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
 } */
 
-
-
-
-
-                    /* it is mine */
-
-
-@media (min-width: 360px) {
-  #hero {
-    width: 100%;
-    height: 50vh;
-    background-size: 900px 400px;
-    background-position: right left;
-     background-size: cover;
-
-  }
-
-
-  #hero:before {
-    height: 50vh;
-  }
-
-  
+h2 {
+  font-size: 1.5em;
+  margin: 10px 5px;
 }
 
-
-@media (min-width: 1000px) {
-  #hero {
-    
-    
-  height: 100vh;
-  background: url("../img/logo1 (4).jpg") top center;
-  background-size: cover;
-   
-   
-
-    
-  }
-
-  #hero:before {
-    height: 100vh;
-  }
+p {
+  font-size: 1.2em;
+  margin: 10px 5px;
 }
 
-
-                    /* it is mine */
-
-
-@media (min-width: 390px) {
-  
-  #hero p{
-    
-    font-size: 30px;
-    
-
-    
-  }
-  
-  #hero h1{
-    margin: 0 45vh 10px 0;
-    font-size: 30px;
-    
-    color: rgba(0, 0, 0, 0.818);
-
-    
-  }
-
-  
+.buttons a {
+  background-color: #ffffff;
+  color: #530E1E;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+.buttons a:hover,
+.buttons .active:hover {
+  color: black;
+}
 
+.buttons a.active {
+  background-color: #530E1E;
+  color: #ffffff;
+}
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1199px) {
+  .mainintro {
+    margin-left: 300px;
+    width: 500px;
+  }
 
+  .mainintro h1 {
+    font-size: 2em;
+  }
+
+  .mainintro h2 {
+    font-size: 1.2em;
+  }
+
+  .mainintro p {
+    font-size: 0.9em;
+  }
+
+  .buttons a {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+}
 
 @media (max-width: 768px) {
-  #hero h1 {
-    font-size: 20px;
-   margin-right: 100px;
-    padding-left: 20px;
-    line-height: 12px;
+  #hero {
+    height: auto;
+    padding: 10px;
+   
   }
 
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+  .mainintro {
+    margin: 0 10px;
+    padding: 10px;
   }
 
-  #hero p{
-    
-    font-size: 15px;
-    padding-left: 20px;
+  .mainintro h1 {
+    font-size: 2em;
+  }
 
-    
+  .mainintro h2 {
+    font-size: 1.2em;
+  }
+
+  .mainintro h3 {
+    font-size: 0.8em;
+  }
+
+  .mainintro p {
+    font-size: 0.9em;
+  }
+
+  .buttons a {
+    padding: 8px 15px;
+    font-size: 0.4em;
+   
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .mainintro {
+    margin-right: 50px;
+    padding: 2px;
+    width: 300px;
+  }
+
+  
+
+  .mainintro h2 {
+    font-size: 1em;
+  }
+
+  .mainintro p {
+    font-size: 0.8em;
+  }
+
+  .buttons a {
+    padding: 5px 10px;
+    font-size: 0.8em;
   }
 }
 
@@ -574,7 +588,7 @@ section {
 .resume .resume-item {
   padding: 0 0 50px 15px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #530E1E;
   position: relative;
 }
 
@@ -618,7 +632,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #530E1E;
 }
 
 /*--------------------------------------------------------------
@@ -974,11 +988,95 @@ section {
   background-color: #149ddd;
 }
 
+
+
+
+
+
+.resume-item {
+  margin: 20px;
+}
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.art-gallery img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: 1 / 1; /* Adjust this to the desired aspect ratio */
+  border-radius: 5px;
+  object-fit: cover; /* Cover the area, maintaining aspect ratio */
+}
+.art-gallery a {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* refrence -*/
+
+/* Add these styles at the end of your existing CSS file */
+
+/* Reference Profiles Section */
+/* Reference Profiles Section */
+.reference { 
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+.reference h2 {
+  
+  color: #333;
+}
+.reference .reference-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px;
+  margin-top: 20px;
+}
+.reference .profile {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.reference .profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.reference .profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.reference .profile-info h3 {
+  margin: 0;
+  color: #333;
+}
+.reference .profile-info p {
+  margin: 5px 0;
+  color: #555;
+}
+@media (max-width: 600px) {
+  .reference .reference-profiles {
+    grid-template-columns: 1fr; /* Single column for small screens */
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  
+ 
   margin-bottom:90px ;
   
 }
@@ -986,7 +1084,7 @@ section {
 .contact .info {
   padding: 5px 100px 5px 0px;
   
-  background: #fff;
+  
   width: 100%;
   height: 120px;
   /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
