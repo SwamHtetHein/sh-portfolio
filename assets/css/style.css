@@ -372,11 +372,22 @@ p {
   
 }
 
-@media (max-width: 480px) {
+@media (max-width: 370px){
   .mainintro {
-    margin-right: 50px;
+    max-width:300px;
+    margin-right: 500px;
     padding: 2px;
-    width: 300px;
+   
+  }
+}
+@media (max-width: 480px) {
+
+  
+  .mainintro {
+    max-width:300px;
+    margin-right: 420px;
+    padding: 2px;
+   
   }
 
   
